@@ -1,0 +1,47 @@
+.heading-home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  //   border: 1px solid blue;
+  .logo-home {
+    width: 35vw;
+  }
+}
+
+.intro-theme {
+  margin-top: 25px;
+}
+
+.container-sound {
+  margin-top: 35px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1 {
+    margin-top: 10px;
+  }
+  img {
+    width: 43px;
+    cursor: pointer;
+  }
+}
+
+.home-heading-waves {
+  width: 37vw;
+  height: 60vh;
+  object-fit: cover;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+
+@media (max-width: 800px) {
+  .heading-home {
+    .logo-home {
+      width: 55%;
+    }
+  }
+
+  .home-heading-waves {
+    width: 100%;
+  }
+}

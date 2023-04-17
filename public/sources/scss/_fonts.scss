@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Stamina";
+  src: url("../../content/fonts/stamina.woff2") format("woff2"),
+    url("../../content/fonts/stamina.woff") format("woff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Stamina Bold";
+  src: url("../../content/fonts/staminabold.woff2") format("woff2"),
+    url("../../content/fonts/staminabold.woff") format("woff");
+  font-display: swap;
+  font-style: normal;
+  font-weight: 800;
+}
